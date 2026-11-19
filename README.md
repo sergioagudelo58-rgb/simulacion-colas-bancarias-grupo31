@@ -14,7 +14,8 @@ Gilliam Argel Monterroza, Leydi Correa Herrera, Sergio Andrés Agudelo Marulanda
 │   └── experimentos.py   # 4 escenarios x 10 réplicas -> Excel y CSV
 ├── resultados/
 │   ├── resultados_simulacion_banco.xlsx   # todas las tablas (ver hojas abajo)
-│   └── clientes.csv                       # un registro por cliente atendido
+│   ├── clientes.csv                       # un registro por cliente atendido
+│   └── ejecucion.png                      # captura de la terminal (evidencia de ejecución)
 ├── figuras/              # gráficas del análisis
 └── requirements.txt
 ```
@@ -27,6 +28,12 @@ cd simulacion-colas-bancarias-grupo31
 pip install -r requirements.txt
 python src/experimentos.py
 ```
+
+### Evidencia de ejecución
+
+Captura de la terminal al ejecutar `python src/experimentos.py`:
+
+![Evidencia de ejecución](resultados/ejecucion.png)
 
 ## Datos del modelo
 
